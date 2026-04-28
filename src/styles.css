@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+}
+
+.container {
+  padding: 20px;
+}
+
+.remaining-ml-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 16px;
+  background: #111827;
+  color: white;
+  margin-top: 12px;
+}
+
+.small-label {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.read-again-btn {
+  border: none;
+  border-radius: 12px;
+  padding: 10px 16px;
+  background: #ffffff;
+  color: #111827;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.recent-inventory {
+  margin-top: 20px;
+}
+
+.recent-inventory-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 14px;
+  background: #f3f4f6;
+}
+
+.empty-text {
+  font-size: 13px;
+  color: #6b7280;
+}
